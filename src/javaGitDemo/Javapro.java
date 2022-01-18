@@ -6,14 +6,18 @@ public class Javapro {
 		int i=20;
 		int j=30;
 		int k=40;
-		if(j>i && j>k) {
+		int l=50;
+		if(j>i && j>k && j>l) {
 			System.out.println("the greatest number is"+j);
-		}else if(i>j && i>k)
+		}else if(i>j && i>k && i>l)
 		{
 			System.out.println("the greatest number is"+i);
-		}else
+		}else if(k>i && k>j && k>l)
 		{
 			System.out.println("the greatest number is"+k);
+		}else 
+		{
+			System.out.println("the greatest number is"+l);
 		}
 	}
 
